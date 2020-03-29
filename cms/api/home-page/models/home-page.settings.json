@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "mainContentArea": {
+      "type": "dynamiczone",
+      "components": [
+        "component.hero-carousel",
+        "component.call-to-action",
+        "component.rich-text-field"
+      ]
+    }
+  }
+}

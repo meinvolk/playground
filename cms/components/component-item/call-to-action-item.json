@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_component_item_call_to_action_items",
+  "info": {
+    "name": "callToActionItem",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

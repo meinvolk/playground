@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "components_component_hero_carousels",
+  "info": {
+    "name": "heroCarousel",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-item.hero-slide",
+      "max": 5,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "connection": "default",
+  "collectionName": "components_component_rich_text_fields",
+  "info": {
+    "name": "richTextField",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

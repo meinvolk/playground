@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_component_call_to_actions",
+  "info": {
+    "name": "callToAction",
+    "icon": "check-square"
+  },
+  "options": {},
+  "attributes": {
+    "callToActionItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component-item.call-to-action-item",
+      "max": 3,
+      "min": 1,
+      "required": true
+    }
+  }
+}
