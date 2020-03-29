@@ -1,0 +1,2 @@
+# playground
+Strapi + Gatsby Playground
